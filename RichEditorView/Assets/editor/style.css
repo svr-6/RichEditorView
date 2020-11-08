@@ -34,6 +34,38 @@ div {
     position: static;
 }
 
+h1 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: auto;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+
+h2 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: auto;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+
+h3 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: auto;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+
 #editor {
     -webkit-user-select: auto !important;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -47,7 +79,12 @@ div {
     content: attr(placeholder);
     position: absolute;
     top: 0px;
-    color: #cccccc;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    color: #AAAAAA;
 }
 
 #editor {
@@ -55,7 +92,8 @@ div {
     height: 100%;
     overflow: auto;
     display: block;
-    font-family: 'HelveticaNeue';
-    color:#666666;
-    font-size: 12pt;
+    font-family: '.AppleSystemUIFont';
+    color: #000000;
+    font-size: 19px;
+    line-height: 23px;
 }
